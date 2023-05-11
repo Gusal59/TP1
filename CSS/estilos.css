@@ -14,6 +14,8 @@ body, header, nav, main, footer {
 header {
     display: flex;
     flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
     box-shadow: 0 0 0.5rem rgb(83, 78, 76 / 50%);
 }
 /*body {
@@ -22,6 +24,8 @@ header {
 nav {
     display: flex;
     flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
 }
 .div-logo {
     margin: 0.5rem;
@@ -69,4 +73,16 @@ main {
 .footer-link {
     display: flex;
     flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+.seguinos {
+    margin-right: 10 px;
+}
+.social-link {
+    margin-left: 10px;
+    justify-content: space-between;
+}
+.contacto {
+    margin-left: 50px;
 }
