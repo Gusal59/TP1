@@ -29,6 +29,11 @@ nav {
     display: flex;
     justify-content: space-evenly;
 }
+a {
+    color: white;
+    text-decoration: none;
+
+}
 
 @media (max-width:600px){
     nav{
@@ -91,6 +96,7 @@ main {
     justify-content: center;
 }
 .seguinos {
+    color: white;
     margin-right: 10 px;
 }
 .social-link {

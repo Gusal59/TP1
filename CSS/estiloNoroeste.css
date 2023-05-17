@@ -1,0 +1,14 @@
+.div-main{
+    display: flex; 
+}
+
+img{
+    width: 20%;
+}
+
+p{
+    font-size: x-large;
+    color: white;
+    text-align: justify;
+    margin: 10px;     
+}
