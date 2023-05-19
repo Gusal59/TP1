@@ -13,19 +13,32 @@ body, header, nav, main, footer {
 }
 header {
     display: flex;
-    flex-wrap: wrap;
+    /* flex-wrap: wrap; */
     align-items: center;
     justify-content: center;
     box-shadow: 0 0 0.5rem rgb(83, 78, 76 / 50%);
 }
-/*body {
-    font-family: 'Verdana', 'Geneva', 'Tahoma', 'sans-serif';
-}*/
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    justify-content: flex-end;
+}
 nav {
+    margin-left: 120px;
+    margin-right: 120px;
+    font-size: large;
     display: flex;
-    flex-wrap: wrap;
-    align-items: center;
-    justify-content: center;
+    justify-content: space-evenly;
+}
+a {
+    color: white;
+    text-decoration: none;
+
+}
+
+@media (max-width:600px){
+    nav{
+        flex-direction:column;
+    }
 }
 .div-logo {
     margin: 0.5rem;
@@ -34,6 +47,9 @@ nav {
     width: 100px;
 }
 .div-titulo {
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    font-size: large;
     margin: 0.5rem 0 0 1rem
 }
 .item {
@@ -67,8 +83,11 @@ main {
     min-height: 300px;
 }
 .mapa {
-    margin: 0.5rem;
+    border: 3px solid white;
+    display: block;
     width: 80%;
+    margin-left: auto;
+    margin-right: auto;
 }
 .footer-link {
     display: flex;
@@ -77,6 +96,7 @@ main {
     justify-content: center;
 }
 .seguinos {
+    color: white;
     margin-right: 10 px;
 }
 /* son los links a las redes sociales */
