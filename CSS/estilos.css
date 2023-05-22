@@ -102,5 +102,6 @@ main {
 /* son los links a las redes sociales */
 .social-link {
     margin-left: 10px;
+    margin-right: 20px;
     justify-content: space-between;
 }

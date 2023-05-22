@@ -1,11 +1,19 @@
 /* contenedor formulario de contacto */
+.cuerpo {
+    /* background-color: #9ada9c; */
+    width: 80%;
+    margin: 0px auto;
+}
 .contenedor {
     background: #8fb3e3;
     border-radius: 2px;
+    border: 1px solid #3d3777;
     box-shadow: 19px 20px 8px -9px rgba(0,0,0,0.2);
+    padding: 20px;
     overflow: hidden;
     width: 500px;
     max-width: 100%;
+    margin: 0px auto;
 }
 /* cabecera formulario de contacto */
 .cabecera {
@@ -51,8 +59,8 @@
     border-color: #fe5f55;
 }
 #formulario button {
-    background: #d573ae;
-    border: 1px solid #fd4f00;
+    background: #9ada9c;
+    border: 1px solid #9ada9c;
     border-radius: 2px;
     color: #f6f6e9;
     display: block;
@@ -66,6 +74,7 @@
     font-size: small;
     font-weight: 500;
     text-align: right;
+    margin-bottom: 2px;
 }
 .form-control.falla p {
     visibility: visible;
