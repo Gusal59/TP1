@@ -1,5 +1,6 @@
 .div-tituloPrincipal {
     display: flex;
+    flex-wrap: wrap;
     align-items: center;
     font-family: Arial, Helvetica, sans-serif;
     /* color: white;
@@ -20,13 +21,13 @@
 }
 @keyframes movimiento {
     0% {
-        transform: translate(-30%, 0);
+        transform: translate(-10%, 0);
     }
     50% {
         text-shadow: 0 25px 50px rgba(0, 0, 0, 0.90);
     }
     100% {
-        transform: translate(30%, 0);
+        transform: translate(10%, 0);
     }
 }
 /* .palabras span:nth-child(2) {
