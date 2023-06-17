@@ -25,10 +25,16 @@ window.addEventListener('load', ()=> {
         }
         
         // valida el ingreso del email y que sea un formato válido
+        // if(!mailValor) {
+        //     validaFalla(mail, 'Ingrese su email')
+        // }else if(!validaEmail(mailValor)) {
+        //     validaFalla(mail, 'Ingrese con email con formato valido')
+        // }else {
+        //     validaOk(mail)
+        // }
+        // valida que no esté en blanco el email
         if(!mailValor) {
             validaFalla(mail, 'Ingrese su email')
-        }else if(!validaEmail(mailValor)) {
-            validaFalla(mail, 'Ingrese con email con formato valido')
         }else {
             validaOk(mail)
         }

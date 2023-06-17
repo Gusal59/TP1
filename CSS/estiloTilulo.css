@@ -57,3 +57,24 @@
 .palabras span:nth-child(10) {
     animation-delay: 4.5s;
 } */
+@media (max-width:800px){
+    .palabras span{
+        font-size: 3rem;
+    }
+}
+@media (max-width:480px){
+    .palabras span{
+        font-size: 1rem;
+    }
+    @keyframes movimiento {
+        0% {
+            transform: translate(-10%, 0);
+        }
+        50% {
+            text-shadow: 0 10px 20px rgba(0, 0, 0, 0.90);
+        }
+        100% {
+            transform: translate(10%, 0);
+        }
+    }
+}

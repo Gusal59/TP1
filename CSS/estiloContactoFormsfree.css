@@ -47,7 +47,7 @@
     padding: 12px;
     width: 100%;
 }
-/* .form-control input:focus {
+.form-control input:focus {
     outline: none;
 }
 .form-control.ok input {
@@ -57,7 +57,7 @@
 .form-control.falla input {
     border: 0.1px solid;
     border-color: #fe5f55;
-} */
+}
 #formulario button {
     background: #9ada9c;
     border: 1px solid #9ada9c;
@@ -76,7 +76,7 @@
     text-align: right;
     margin-bottom: 2px;
 }
-/* .form-control.falla p {
+.form-control.falla p {
     visibility: visible;
     color: #e74c3c;
-} */
+}
