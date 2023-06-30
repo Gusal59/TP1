@@ -4,9 +4,9 @@
       <meta charset="UTF-8">
       <meta http-equiv="X-UA-Compatible" content="IE=edge">
       <meta name="viewport" content="width=device-width, initial-scale=1.0">
-      <link rel="stylesheet" href="CSS/estiloContacto.css">
+      <link rel="stylesheet" href="CSS/estiloContactoFormsfree.css">
       <link rel="stylesheet" href="CSS/estilos.css">
-      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css">
+      <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"> -->
       
       <title>Contacto</title>
   </head>
@@ -26,26 +26,26 @@
     <div class="cabecera">
       <h2>Contacto</h2>
     </div>
-    <form id="formulario" action="" method="">
+    <form id="formulario" action="https://formspree.io/f/mqkorblj" method="post">
       <div class="form-control">
         <label for="nombre">Nombre</label>
-        <input id="nombre" type="text">
+        <input name="nombre" id="nombre" type="text">
         <p></p>
       </div>
       <div class="form-control">
         <label for="mail">E-mail</label>
-        <input id="mail" type="email">
+        <input name="mail" id="mail" type="email">
         <p></p>
       </div>
       <div class="form-control">
         <label for="comentario">Comentario</label><br>
-        <textarea id="comentario" cols="63" rows="10"></textarea>  
+        <textarea name="comentario" id="comentario" cols="63" rows="10"></textarea>  
         <p></p>
       </div>
       <button>Enviar</button>
     </form>
 
-    <script src="JS/javascript.js"></script>
+    <!-- <script src="JS/javascript.js"></script> -->
   </div>
   </div>
   <footer>
@@ -57,7 +57,7 @@
             <a href="https://www.twitter.com" target="_blank"><i class="fab fa-twitter"></i></a>
             <a href="https://www.linkedin.com" target="_blank"><i class="fab fa-linkedin"></i></a>
         </div>
-        <a href="contacto.html"><H4 class="contacto">Contacto</H4></a>
+        <a href="contactoFormspree.html"><H4 class="contacto">Contacto</H4></a>
     </div>
 </footer>
 </html>

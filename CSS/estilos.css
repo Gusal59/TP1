@@ -35,22 +35,11 @@ a {
 
 }
 
-@media (max-width:600px){
-    nav{
-        flex-direction:column;
-    }
-}
 .div-logo {
     margin: 0.5rem;
 }
 .logo {
     width: 100px;
-}
-.div-titulo {
-    font-family: Arial, Helvetica, sans-serif;
-    color: white;
-    font-size: large;
-    margin: 0.5rem 0 0 1rem
 }
 .item {
     text-decoration: none;
@@ -62,11 +51,13 @@ a {
     /*background-color: gray;*/
 }
 .item:hover {
-    color: black;
+    /* color: black; */
+    background-color: #8fb3e3;
 }
 .item1 {
     background-color: #9ada9c;
 }
+
 .item2 {
     background-color: #ccda9c;
 }
@@ -81,9 +72,9 @@ a {
 }
 main {
     min-height: 300px;
-}
+    /* border: 3px solid white;
+} */}
 .mapa {
-    border: 3px solid white;
     display: block;
     width: 80%;
     margin-left: auto;
@@ -102,5 +93,20 @@ main {
 /* son los links a las redes sociales */
 .social-link {
     margin-left: 10px;
+    margin-right: 20px;
     justify-content: space-between;
+}
+@media (max-width:800px){
+    .logo {
+        width: 60px;
+    }
+}
+@media (max-width:480px){
+    .logo {
+        display: none;
+    }
+    nav{
+        flex-direction:column;
+        padding-left: 75px;
+    }
 }
