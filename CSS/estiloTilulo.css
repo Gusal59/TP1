@@ -14,7 +14,7 @@
     line-height: 1.5;
 }
 .palabras span {
-    font-size: 5rem;
+    font-size: 4rem;
     display: inline-block;
 
     animation: movimiento 3s ease-in-out infinite;
